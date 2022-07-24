@@ -5,8 +5,9 @@ if (isset($_POST['submit'])) {
 $num1=$_POST['number1'];
 $num2=$_POST['number2'];
 
- if(is_numeric['num1'] && is_numeric['num2']) 
+ if(is_numeric('$num1') && is_numeric('$num2')) 
  {
+   $result = 'neznamy';
 
     if(isset($_POST['g'])) 
     {
@@ -37,14 +38,11 @@ $num2=$_POST['number2'];
 
     else 
     {
-
+      echo "Prosím, vyberte matematický symbol.";
     }
-
  }
 else 
  {
 echo "Prosím,uveďte pouze čísla.";
  }
-
-
  }

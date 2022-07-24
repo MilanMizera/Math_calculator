@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <?php include 'math.php' ?>
 <h1 class="form_title"> Matematická kalkulačka</h1>
 
 <form method="post" action="math.php">

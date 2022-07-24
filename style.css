@@ -3,3 +3,12 @@
     padding: 0px;
     margin: 0px;
 }
+
+.form-control {
+    width: 50%;
+}
+
+.form_title {
+    text-align: center;
+    color: green;
+}

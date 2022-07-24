@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulačka</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css?<?php echo date('h:i:s'); ?>">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 
@@ -34,28 +34,28 @@
       <legend class="col-form-label col-sm-2 pt-0">Zvolte matematickou operaci</legend>
       <div class="col-sm-10">
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="g" id="gridRadios1" value="option1" checked>
+          <input class="form-check-input" type="radio" name="g" id="gridRadios1" value="+" checked>
           <label class="form-check-label" for="gridRadios1">
             Sčítání +
           </label>
         </div>
 
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="g" id="gridRadios2" value="option2">
+          <input class="form-check-input" type="radio" name="g" id="gridRadios2" value="-">
           <label class="form-check-label" for="gridRadios2">
             Odčítání -
           </label>
         </div>
 
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="g" id="gridRadios3" value="option3">
+          <input class="form-check-input" type="radio" name="g" id="gridRadios3" value="*">
           <label class="form-check-label" for="gridRadios2">
             Násobení x
           </label>
         </div>
 
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="g" id="gridRadios4" value="option4">
+          <input class="form-check-input" type="radio" name="g" id="gridRadios4" value="/">
           <label class="form-check-label" for="gridRadios2">
             Dělení ÷
           </label>
@@ -67,10 +67,11 @@
 
   <div class="form-group row">
     <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Odeslat</button>
+      <button type="submit" name="submit" class="btn btn-primary">Odeslat</button>
     </div>
   </div>
 </form>
+<h2 class="my_result">Výsledek:<?php echo $result ?></h2>
 <script src="../bootstrap/js/bootstrap.js"> </script>
 </body>
 </html>

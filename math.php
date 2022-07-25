@@ -3,7 +3,7 @@ $result = null;
 if (isset($_POST['submit'])) {
 $num1=$_POST['number1'];
 $num2=$_POST['number2'];
-$result = 'neznamy';
+$result = 'neznámý';
 
  if(is_numeric($num1) && is_numeric($num2)) 
  {

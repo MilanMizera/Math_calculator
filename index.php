@@ -15,7 +15,7 @@
   <?php include 'math.php' ?>
 <h1 class="form_title"> Matematická kalkulačka</h1>
 
-<form method="post" action="math.php">
+<form method="post" action="index.php">
   <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label">První číslo</label>
     <div class="col-sm-10">

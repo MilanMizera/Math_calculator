@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+.calculator_container {
+    margin-right: 250px !important;
+}
+
 .form-control {
     width: 50%;
     margin: auto;
@@ -23,6 +27,7 @@
     width: 50%;
     margin: auto;
     padding-left: 40px;
+
 }
 
 .col {
@@ -36,4 +41,25 @@
     color: rgb(0, 0, 0);
     margin-top: 30px;
     font-size: 30px;
+}
+
+.btn-primary {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+.btn-primary:hover{
+    background: #073477;
+}
+
+
+
+/*@media queries*/
+@media only screen and (max-width: 1310px) {
+    .btn-primary {
+        padding-left: 40px;
+        padding-right: 40px;
+        }
 }

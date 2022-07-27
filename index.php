@@ -14,6 +14,7 @@
 
 <body>
   <?php include 'math.php' ?>
+  <div class="calculator_container">
 <h1 class="form_title"> Matematická kalkulačka</h1>
 
 <form method="post" action="index.php">
@@ -76,6 +77,7 @@
 <?php if ($result) : ?>
 <h2 class="my_result">Výsledek:<?= $result ?></h2>
 <?php endif ?>
+</div>
 <script src="bootstrap/js/bootstrap.js"> </script>
 </body>
 </html>

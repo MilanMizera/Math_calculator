@@ -58,8 +58,21 @@
 
 /*@media queries*/
 @media only screen and (max-width: 1310px) {
+    .calculator_container {
+        margin-right: 0px !important;
+    }
+        }
+
+
+@media only screen and (max-width: 830px) {
     .btn-primary {
-        padding-left: 40px;
-        padding-right: 40px;
+        margin-left: 30px;
+        }
+}
+
+@media only screen and (max-width: 1310px) {
+    .btn-primary {
+        padding-left: 30px;
+        padding-right: 30px;
         }
 }

@@ -75,7 +75,7 @@
   </div>
 </form>
 <?php if ($result) : ?>
-<h2 class="my_result">Výsledek:<?= $result ?></h2>
+<h2 class="my_result"><b>Výsledek:<?=" "?></b><?= $result ?></h2>
 <?php endif ?>
 </div>
 <script src="bootstrap/js/bootstrap.js"> </script>

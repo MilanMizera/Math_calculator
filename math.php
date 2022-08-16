@@ -3,11 +3,10 @@ $result = null;
 if (isset($_POST['submit'])) {
 $num1=$_POST['number1'];
 $num2=$_POST['number2'];
-$result = 'neznámý';
+$result = ' Vyplńte všechna pole pouze číslem';
 
  if(is_numeric($num1) && is_numeric($num2)) 
  {
-
     if(isset($_POST['g'])) 
     {
   
@@ -40,8 +39,5 @@ $result = 'neznámý';
       echo "Prosím, vyberte matematický symbol.";
     }
  }
-else 
- {
-echo "Prosím,uveďte pouze čísla.";
- }
+
  }

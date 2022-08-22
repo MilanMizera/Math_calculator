@@ -35,10 +35,10 @@ if (isset($_POST['submit']))
         }
       }
 
-        else 
-        {
-        echo "Prosím, vyberte matematický symbol.";
-        }
+        //else 
+        //{
+        //echo "Prosím, vyberte matematický symbol.";
+        //}
     }
 
 }

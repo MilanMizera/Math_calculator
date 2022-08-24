@@ -7,8 +7,8 @@ if (isset($_POST['submit']))
 
    $result = 'Vyplńte všechna pole pouze číslem';
 
-   str_replace(",",".",$num1);
-   str_replace(",",".",$num2);
+   $num1=str_replace(",",".",$num1);
+   $num2=str_replace(",",".",$num2);
 
    if(is_numeric($num1) && is_numeric($num2)) 
    {

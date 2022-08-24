@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <?php include 'math.php' ?>
+  <?php include 'math.php'; ?>
   <div class="calculator_container">
 <h1 class="form_title"> Matematická kalkulačka</h1>
 

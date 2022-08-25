@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <?php include 'math.php'; ?>
+  <?php require('math.php');?>
   <div class="calculator_container">
 <h1 class="form_title"> Matematická kalkulačka</h1>
 
@@ -21,14 +21,14 @@
   <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label"></label>
     <div class="col">
-      <input value="<?php htmlspecialchars(echo $num1); ?>" type="text" name="number1" class="form-control" id="inputEmail3" placeholder="Zde zadejte Vaše první číslo">
+      <input value="<?php $num1= htmlspecialchars($num1); echo $num1; ?>" type="text" name="number1" class="form-control" id="inputEmail3" placeholder="Zde zadejte Vaše první číslo">
     </div>
   </div>
 
   <div class="form-group row">
     <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
     <div class="col-sm-10">
-      <input value="<?php<?php htmlspecialchars(echo $num2); ?>$num2 ?>" type="text" name="number2" class="form-control" id="inputPassword3" placeholder="Zde zadejte Vaše druhé číslo">
+      <input value="<?php $num2= htmlspecialchars($num2); echo $num2; ?>" type="text" name="number2" class="form-control" id="inputPassword3" placeholder="Zde zadejte Vaše druhé číslo">
     </div>
   </div>
 

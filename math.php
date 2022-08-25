@@ -2,8 +2,8 @@
 $result = null;
 if (isset($_POST['submit']))
 {
-   $num1= htmlspecialchars($_POST['number1']);
-   $num2= htmlspecialchars($_POST['number2']);
+   $num1= $_POST['number1'];
+   $num2= $_POST['number2'];
 
    $result = 'Vyplńte všechna pole pouze číslem';
 
